@@ -30,15 +30,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <Button
+    <EditText
         android:id="@+id/button"
         android:layout_width="350dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/button_transparent"
         android:fontFamily="@font/nunito_bold"
         android:text="@string/a1b2c3"
         android:textSize="14sp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
